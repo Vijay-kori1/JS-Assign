@@ -6,5 +6,5 @@ p=prompt("Enter the principal");
 r=prompt("Enter the Rate");
 t=prompt("Enter the Duration");
 si=(p*r*t)/100;
-console.log("Simple Interest="+si)
+document.write("Simple Interest="+si)
 }main()
